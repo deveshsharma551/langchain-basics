@@ -51,7 +51,8 @@ def get_chain(api_key,model_name):
         [
             ("system","you are an helpful assistant powered by groq. answer questions clearly and consisely"),
             ("user", "{question}")
-        ]
+        ],
+        "f-string"
     ) 
 
     ##create chain
